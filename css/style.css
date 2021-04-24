@@ -181,7 +181,9 @@ main > p {
 }
 
 form {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 60px;
 }
 
