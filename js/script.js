@@ -1,4 +1,7 @@
 const hamburger = document.querySelector(".hamburger");
+const navbar = document.querySelector(".navbar");
+
+console.dir(hamburger);
 
 hamburger.addEventListener("click", () => {
   navbar.classList.toggle("show");

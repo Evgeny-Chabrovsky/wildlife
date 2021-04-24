@@ -78,7 +78,9 @@ nav > a,
   display: flex;
   align-self: center;
 }
-
+.navbar.show {
+  display: flex;
+}
 .navbar_ul {
   display: flex;
   align-items: center;
@@ -257,9 +259,7 @@ footer {
     width: 100%;
     align-items: center;
   }
-  .navbar.show {
-    display: flex;
-  }
+
   .navbar_ul {
     flex-direction: column;
   }
